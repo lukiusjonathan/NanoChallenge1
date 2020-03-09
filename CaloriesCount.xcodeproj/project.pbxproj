@@ -15,6 +15,11 @@
 		2A439A6F240E89B9008104F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A439A6D240E89B9008104F9 /* LaunchScreen.storyboard */; };
 		2A439A7A240E89B9008104F9 /* CaloriesCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439A79240E89B9008104F9 /* CaloriesCountTests.swift */; };
 		2A439A85240E89B9008104F9 /* CaloriesCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439A84240E89B9008104F9 /* CaloriesCountUITests.swift */; };
+		2A439A94240E9C79008104F9 /* Kelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439A93240E9C79008104F9 /* Kelas.swift */; };
+		2A439A96240EAADE008104F9 /* Kelas2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A439A95240EAADE008104F9 /* Kelas2.swift */; };
+		2A5FEBF1241231AD00BF129C /* HalDepan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FEBF0241231AD00BF129C /* HalDepan.swift */; };
+		2A5FEBF52412362600BF129C /* LoginDepan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FEBF42412362600BF129C /* LoginDepan.swift */; };
+		2A5FEBF7241282B500BF129C /* HalTiga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FEBF6241282B500BF129C /* HalTiga.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		2A439A80240E89B9008104F9 /* CaloriesCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A439A84240E89B9008104F9 /* CaloriesCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCountUITests.swift; sourceTree = "<group>"; };
 		2A439A86240E89B9008104F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A439A93240E9C79008104F9 /* Kelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelas.swift; sourceTree = "<group>"; };
+		2A439A95240EAADE008104F9 /* Kelas2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelas2.swift; sourceTree = "<group>"; };
+		2A5FEBF0241231AD00BF129C /* HalDepan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalDepan.swift; sourceTree = "<group>"; };
+		2A5FEBF42412362600BF129C /* LoginDepan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDepan.swift; sourceTree = "<group>"; };
+		2A5FEBF6241282B500BF129C /* HalTiga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalTiga.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,8 @@
 		2A439A56240E89B8008104F9 = {
 			isa = PBXGroup;
 			children = (
+				2A5FEBF0241231AD00BF129C /* HalDepan.swift */,
+				2A439A92240E9C54008104F9 /* Model */,
 				2A439A61240E89B8008104F9 /* CaloriesCount */,
 				2A439A78240E89B9008104F9 /* CaloriesCountTests */,
 				2A439A83240E89B9008104F9 /* CaloriesCountUITests */,
@@ -103,9 +115,11 @@
 				2A439A64240E89B8008104F9 /* SceneDelegate.swift */,
 				2A439A66240E89B8008104F9 /* ViewController.swift */,
 				2A439A68240E89B8008104F9 /* Main.storyboard */,
+				2A5FEBF6241282B500BF129C /* HalTiga.swift */,
 				2A439A6B240E89B9008104F9 /* Assets.xcassets */,
 				2A439A6D240E89B9008104F9 /* LaunchScreen.storyboard */,
 				2A439A70240E89B9008104F9 /* Info.plist */,
+				2A5FEBF42412362600BF129C /* LoginDepan.swift */,
 			);
 			path = CaloriesCount;
 			sourceTree = "<group>";
@@ -126,6 +140,15 @@
 				2A439A86240E89B9008104F9 /* Info.plist */,
 			);
 			path = CaloriesCountUITests;
+			sourceTree = "<group>";
+		};
+		2A439A92240E9C54008104F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A439A93240E9C79008104F9 /* Kelas.swift */,
+				2A439A95240EAADE008104F9 /* Kelas2.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A439A96240EAADE008104F9 /* Kelas2.swift in Sources */,
 				2A439A67240E89B8008104F9 /* ViewController.swift in Sources */,
+				2A5FEBF7241282B500BF129C /* HalTiga.swift in Sources */,
+				2A5FEBF1241231AD00BF129C /* HalDepan.swift in Sources */,
+				2A5FEBF52412362600BF129C /* LoginDepan.swift in Sources */,
 				2A439A63240E89B8008104F9 /* AppDelegate.swift in Sources */,
+				2A439A94240E9C79008104F9 /* Kelas.swift in Sources */,
 				2A439A65240E89B8008104F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N5QY8J323;
 				INFOPLIST_FILE = CaloriesCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N5QY8J323;
 				INFOPLIST_FILE = CaloriesCount/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
